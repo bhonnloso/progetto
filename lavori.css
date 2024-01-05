@@ -1,0 +1,111 @@
+.container-fluid {
+  background-color: transparent;
+}
+.background-fixed {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(64, 64, 64);
+  background-blend-mode: overlay;
+  background-attachment:fixed;
+}
+.img1{
+  background-image: url("/img/Dante\ Alighieri.jpeg");
+}
+.img2{
+  background-image: url("/img/mucca.jpg");
+}
+.img3{
+  background-image: url("/img/Mucca\ Base.webp");
+}
+.progetti{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.menu{
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+}
+strong{
+  color: whitesmoke;
+}
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  text-align: right;
+}
+li {
+  display:inline;
+  color:white;
+  margin-left: 20px;
+}
+footer{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  font-family: verdana;
+  font-size: 14px;
+  color: whitesmoke;
+  background-color: black;
+}
+.testobianco {
+  color:white;
+}
+.testogrigio {
+  color:#333;
+}
+.aligncenter {
+  text-align: center;
+}
+a:visited, a:link{
+  color: whitesmoke;
+  text-decoration: none;
+}
+iframe{
+  height: 400px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .menu{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .progetti{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  li {
+    margin-left: 5px;
+  }
+  iframe{
+    height: 100px;
+  }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menu{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .progetti{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  li {
+    margin-left: 10px;
+  }
+  iframe{
+    height: 200px;
+  }
+}

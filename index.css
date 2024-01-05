@@ -1,0 +1,159 @@
+.menu{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+}
+strong{
+  color: whitesmoke;
+}
+.container {
+  background-color: transparent;
+}
+.container-fluid {
+  background-color: transparent;
+}
+
+.background-scroll {
+  background-image: url("img/tramonto1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(64, 64, 64);
+  background-blend-mode: overlay;
+  background-attachment:scroll;
+}
+
+.background-fixed {
+  background-image: url("img/tramonto2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(64, 64, 64);
+  background-blend-mode: overlay;
+  background-attachment:fixed;
+}
+
+.border {
+  border-color: #333;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  text-align: right;
+}
+li {
+  display:inline;
+  color:white;
+  margin-left: 20px;
+}
+
+.box1 {
+  background-image: url("/img/Dante\ Alighieri.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  border-radius:20px
+}
+.box2 {
+  background-image: url("/img/mucca.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  border-radius:20px
+}
+.box3 {
+  background-image: url("/img/Mucca\ Base.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  border-radius:20px
+}
+
+.box4 {
+  background-image: url("/img/foto\ profilo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:500px;
+  border-radius:20px
+}
+
+.testobianco {
+  color:#fff;
+}
+
+.testogrigio {
+  color:#333;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: black;
+  padding:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+a:link{
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 400px) {
+  .menu{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .progetti{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  li {
+    margin-left: 5px;
+  }
+  iframe{
+    height: 100px;
+  }
+
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menu{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .progetti{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  li {
+    margin-left: 10px;
+  }
+  iframe{
+    height: 200px;
+  }
+}
